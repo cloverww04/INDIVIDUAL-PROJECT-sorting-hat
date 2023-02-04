@@ -77,6 +77,7 @@ const displayDom = (e) => {
   students.push(firstYear);
   renderStudent(students);
   renderExpelledStudents(darkSide);
+  form.reset();
 };
 
 //filters student based on house
